@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - interface to query a game server
 Summary(pl):	%{_pearname} - interfejs do odpytywanie serwera gier
 Name:		php-pear-%{_pearname}
-Version:	0.1
+Version:	0.2.0
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	d01ac1c6b4b22afae90fb616a58987ef
+# Source0-md5:	c1b70ac52031046605522e3df64bb13c
 URL:		http://pear.php.net/package/Net_GameServerQuery/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
