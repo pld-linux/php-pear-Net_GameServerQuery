@@ -24,7 +24,7 @@ Net_GameServerQuery is an object for querying game servers.
 Currently only supports basic "status" information.
 Built in support for over 20 games.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Net_GameServerQuery to obiekt do odpytywania serwerów gier. Aktualnie
