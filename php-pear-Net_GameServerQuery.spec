@@ -4,8 +4,8 @@
 %define		_status		alpha
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - An interface to query and return various information about a game server
-#Summary(pl):	%{_pearname} -
+Summary:	%{_pearname} - interface to query a game server
+Summary(pl):	%{_pearname} - interfejs do odpytywanie serwera gier
 Name:		php-pear-%{_pearname}
 Version:	0.1
 Release:	1
@@ -13,7 +13,7 @@ License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	d01ac1c6b4b22afae90fb616a58987ef
-URL:		http://pear.php.net/package/Class_Subclass/
+URL:		http://pear.php.net/package/Net_GameServerQuery/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
 BuildArch:	noarch
