@@ -26,10 +26,12 @@ Built in support for over 20 games.
 
 This class has in PEAR status: %{_status}.
 
-#%description -l pl
-#...
-#
-#Ta klasa ma w PEAR status: %{_status}.
+%description -l pl
+Net_GameServerQuery to obiekt do odpytywania serwerów gier. Aktualnie
+obs³uguje tylko podstawowe informacje o stanie. Ma wbudowan± obs³ugê
+ponad 20 gier.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
@@ -47,4 +49,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %{php_pear_dir}/%{_class}/*.php
-%{php_pear_dir}/%{_class}/%{_subclass}/
+%{php_pear_dir}/%{_class}/%{_subclass}
