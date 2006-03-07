@@ -15,6 +15,7 @@ Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	c1b70ac52031046605522e3df64bb13c
 Patch0:		%{name}-path_fix.patch
 URL:		http://pear.php.net/package/Net_GameServerQuery/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-common >= 3:5.0.0
 Requires:	php-pear
