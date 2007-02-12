@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - interface to query a game server
-Summary(pl):	%{_pearname} - interfejs do odpytywanie serwera gier
+Summary(pl.UTF-8):   %{_pearname} - interfejs do odpytywanie serwera gier
 Name:		php-pear-%{_pearname}
 Version:	0.2.0
 Release:	5
@@ -30,9 +30,9 @@ Built in support for over 20 games.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Net_GameServerQuery to obiekt do odpytywania serwerów gier. Aktualnie
-obs³uguje tylko podstawowe informacje o stanie. Ma wbudowan± obs³ugê
+%description -l pl.UTF-8
+Net_GameServerQuery to obiekt do odpytywania serwerÃ³w gier. Aktualnie
+obsÅ‚uguje tylko podstawowe informacje o stanie. Ma wbudowanÄ… obsÅ‚ugÄ™
 ponad 20 gier.
 
 Ta klasa ma w PEAR status: %{_status}.
