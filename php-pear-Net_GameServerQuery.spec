@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - interface to query a game server
-Summary(pl.UTF-8):   %{_pearname} - interfejs do odpytywanie serwera gier
+Summary(pl.UTF-8):	%{_pearname} - interfejs do odpytywanie serwera gier
 Name:		php-pear-%{_pearname}
 Version:	0.2.0
 Release:	5
