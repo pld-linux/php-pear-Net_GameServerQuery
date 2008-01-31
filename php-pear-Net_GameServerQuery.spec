@@ -8,7 +8,7 @@ Summary:	%{_pearname} - interface to query a game server
 Summary(pl.UTF-8):	%{_pearname} - interfejs do odpytywanie serwera gier
 Name:		php-pear-%{_pearname}
 Version:	0.2.0
-Release:	5
+Release:	6
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
