@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	Net_GameServerQuery
 Summary:	%{_pearname} - interface to query a game server
